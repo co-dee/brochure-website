@@ -199,7 +199,7 @@ footer a:hover {
 } 
 /*responsive*/
 @media (max-width: 800px) {
-    header img{
+    	header img{
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
@@ -213,33 +213,34 @@ footer a:hover {
 		margin: 10px;
 	}
 	section h1 {
-		font-size: 2em;
-        width: 75%;
-        padding-top: 30%;
-        text-align: center;
-        flex-wrap: wrap;
+		font-size: 1.5em;
+        	width: 75%;
+        	padding-top: 30%;
+        	text-align: center;
+        	flex-wrap: wrap;
 	}
-    section h2 {
-        width: 100%;
-        padding-top: 10%;
-    }
+    	section h2 {
+        	font-size: 1.5em;
+		width: 100%;
+        	padding-top: 10%;
+    	}
 	section p {
 		width: 60%;
 		font-size: 1em;
-        text-align: center;
-        padding-top: 5%;
+	        text-align: center;
+        	padding-top: 5%;
 	}
-    section li{
-        font-size: 1em;
-    }
-    button{
-        width: 30%;
-        margin-left: 50px;
-    }
-    button a{
-        font-size: 1em;
-    }
-	footer a{
+	section li {
+        	font-size: 1em;
+    	}
+    	button {
+	        width: 30%;
+        	margin-left: 50px;
+    	}
+    	button a {
+	        font-size: 1em;
+    	}
+	footer a {
 		font-size: 0.75em;
 	}
 }
