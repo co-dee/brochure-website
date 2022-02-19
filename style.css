@@ -50,6 +50,7 @@ header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     z-index: 1;
+    justify-content: center;
 }   
 header img {
     -webkit-box-flex: 1;
@@ -68,6 +69,7 @@ nav {
     margin-right: 2.5%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    text-align: center;
 }
 nav a {
     -webkit-box-pack: justify;
