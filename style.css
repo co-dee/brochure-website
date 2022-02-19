@@ -132,7 +132,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em; 
     border-radius: 20px;
-    background-color: rgba(137, 163, 74, 0.3);
+    background-color: var(--beige);
     margin-top: 40px;
 }
 button:hover{
