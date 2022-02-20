@@ -100,7 +100,7 @@ section p {
     width: 100%;
     color: var(--dark-green);
     text-align: center;
-    padding-top: 10%;
+    padding: 10% 5% 0% 5%;
     width: 50%;
 }
 section li{
