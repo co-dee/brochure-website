@@ -12,30 +12,37 @@
     --beige:#f2e8cf;
     --red:#bC4749;  
 }
+
 *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+
 html, body {
     height: 100%;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
+
 html {
     position: relative;
     min-height: 100%;
 }
+
 h1{ 
     font-size: 18px; 
 }
+
 h2{
     font-size: 16px;
 }
+
 p, li, a{
     font-size: 14px;
 }
+
 header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,10 +58,12 @@ header {
         flex-wrap: wrap;
     z-index: 1;
 }   
+
 header img {
     flex: 1 1 auto;
     margin-left: 2.5%;
 }
+
 nav {
     display: inline-block;
     -webkit-box-pack: center;
@@ -67,6 +76,7 @@ nav {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
+
 nav a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -76,9 +86,11 @@ nav a {
 	color: var(--dark-green);
     text-transform: uppercase;
 }
+
 nav a:hover {
     color: var(--red);
-}    
+}  
+
 section {
     position: relative;
     width: 100%;
@@ -88,6 +100,7 @@ section {
     background-position: center center;
     text-align: center;
 }
+
 section h1 {
     font-size: 3.5em;
     color: #000;
@@ -95,6 +108,7 @@ section h1 {
     padding-top: 5%;
     text-align: center;
 }
+
 section p {
     font-size: 1.5em;
     width: 100%;
@@ -106,15 +120,18 @@ section p {
 section li{
     font-size: 1.25em;
 }
+
 section h2 {
     font-size: 3em;
     padding-top: 7%;
     text-align: center;
 }
+
 section ul {
     padding-top: 10px;
     text-align: center;
 }
+
 button {
     background-color: transparent; 
     color: black; 
@@ -132,28 +149,34 @@ button {
     background-color: var(--beige);
     margin-top: 40px;
 }
+
 button:hover{
     background-color: var(--dark-green);
     color: var(--beige);
 }
+
 article {
     padding: 50px 10px;
     text-align: center;
     min-height: 50vh;
 }
+
 article h2 {
     font-size: 2em;
     color: var(--dark-green);
     padding-bottom: 25px;
 }
+
 article ul {
     padding-left: 5%;
     padding-top: 10%;
 }
+
 article li {
     list-style: circle;
     text-align: left;
 }
+
 footer{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -167,9 +190,11 @@ footer{
             align-items: center;
     background-color: rgba(167,201,87,0.2);
 }
+
 footer p {
     color: #000;
 }
+
 footer ul {
     text-decoration: underline;
     list-style-type: none;
@@ -180,6 +205,7 @@ footer ul {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
 }
+
 footer a{
     padding-left: 1em;
     -webkit-box-pack: justify;
@@ -189,42 +215,53 @@ footer a{
 	color: var(--dark-green);
     text-transform: uppercase;
 }
+
 footer a:hover {
     color: var(--red);
 } 
+
 /*responsive*/
 @media (max-width: 800px) {
     header {
         justify-content: center;
     }
+
     nav {
         text-align: center;
     }
+
     section h1 {
         font-size: 1.5em;
         text-align: center;
         padding-top: 50px;
     }
+
     section p {
         font-size: 1em;
         width: 60%;
     }
+
     button {
         font-size: 0.75em;
     }
+
     section {
         height: 85vh;
     }
+
     section h2 {
         font-size: 1.5em;
-	padding-top: 100px;
+        padding-top: 100px;
     }
+
     article h2 {
         font-size: 1.25em;
     }
+
     section li {
         font-size: 1em;
     }
+    
     footer a {
         font-size: 0.75em;
     }
