@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+/*define colors*/
 :root {
   --dark-green:#386641;
   --green:#6a994e;
@@ -31,6 +32,7 @@ html {
   min-height: 100%;
 }
 
+/*set font size*/
 h1 { 
   font-size: 18px; 
 }
